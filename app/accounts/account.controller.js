@@ -1,3 +1,4 @@
+const accountService = require("./account.service");
 class AccountController {
   constructor(accountService) {
     this.accountService = accountService;
@@ -14,4 +15,4 @@ class AccountController {
   }
 }
 
-module.exports = new AccountController();
+module.exports = new AccountController(accountService);

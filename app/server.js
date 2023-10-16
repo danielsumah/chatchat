@@ -3,7 +3,7 @@ const accountRoutes = require("./accounts/account.route");
 
 const app = express();
 
-app.use("/account", accountRoutes);
+app.use("/accounts", accountRoutes);
 
 module.exports = {
   startApp: () =>

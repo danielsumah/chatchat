@@ -47,4 +47,4 @@ class AccountService {
   }
 }
 
-modules.exports = new AccountService(accountRepo);
+module.exports = new AccountService(accountRepo);

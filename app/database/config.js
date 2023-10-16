@@ -9,9 +9,6 @@ module.exports = {
     process.env.DB_PASSWORD || "",
     {
       dialect: "postgres",
-      define: {
-        freezeTableName: true,
-      },
       sync: true,
     }
   ),
